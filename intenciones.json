@@ -1,0 +1,56 @@
+{"intents": [
+        {"tag": "saludo",
+         "patrones": ["Hola", "Como estas", "Hay alguien aquí?","Hey","Como vas?", "Que tal todo?", "Buen día", "Buenos dias"],
+         "respuestas": ["Hola, gracias por preguntar. Con tu información, vamos a contribuir a que te sientas mucho mejor cada día. En primer lugar me gustaría saber si fumas cigarrillo", "Hola, ¡Te doy a la bienvenida! Estoy para contribuir a que te sientas mucho mejor cada día. En primer lugar me gustaría saber si fumas cigarrillo.", "Hola, con tu información vamos a contribuir a que te sientas mucho mejor cada día. En primer lugar me gustaría saber si fumas cigarrillo"]
+        },
+        {"tag": "despedida",
+         "patrones": ["Adiós", "Chao","Nos vemos luego", "Hasta luego", "Hasta la próxima"],
+         "respuestas": ["¡Te veo luego!", "¡Ten un buen día!", "Adiós, por aquí a la orden."]
+        },
+        {"tag": "gracias",
+         "patrones": ["Gracias", "Muchas Gracias", "Gracias por tu ayuda", "Impresionante, gracias", "Muy valiosa tu ayuda"],
+         "respuestas": ["¡Me alegra mucho ayudar!", "¡Estaré atento!", "Un placer", "Con todo gusto"]
+        },
+         {"tag": "fumador",
+         "patrones": ["Fumo a veces", "Si fumo", "Fumo de vez en cuando"],
+         "respuestas": ["Ahora dime cuantos kilos pesas"]
+        },
+        {"tag": "nofumador",
+         "patrones": ["Nunca fumo", "No fumo", "no he fumado"],
+         "respuestas": ["Ahora dime cuantos kilos pesas"]
+        },
+        {"tag": "Peso",
+         "patrones": ["Mi peso es", "Yo peso", "kilos", "kilogramos", "kgs", "k"],
+         "respuestas": ["Gracias por tu colaboración. Te pediré más información. ¿Cuántos años tienes?"]
+        },
+        {"tag": "edad",
+         "patrones": ["años"],
+         "respuestas": ["Ahora dime tus resultados recientes de hipertensión arterial. Recuerda que son dos números"]
+        },
+        {"tag": "presion_arterial",
+         "patrones": ["Mi tension arterial es ", "Mis resultados de tensión arterial son", "Diastólica y sistólica", "Mi tensión es"],
+         "respuestas": ["Gracias. ¿Y te han diagnósticado con diabetes?"]
+        },
+        {"tag": "diabetes",
+         "patrones": ["No tengo diabetes", "No me han dicho nada de diabetes", "Diabetes no", "no sufro de diabetes"],
+         "respuestas": ["Gracias. ¿Tienes algún problema de riñones? ¿Te han dicho si tienes alguna insuficiencia renal?"]
+        },
+        {"tag": "insuficiencia_renal",
+         "patrones": ["insuficiencia renal no tengo", "Insuficiencia renal no", "renal nada", "no me han dicho nada de insuficiencia renal", "nada en los riñones", "de los riñones nada"],
+         "respuestas": ["Gracias, tu información es muy valiosa para poderte ayudar. En tu familia (padres, hermanos, abuelos, tios en primer grado), alguien sufre o ha sufrido de enfermedad coronaria? (enfermedades del corazón)."]
+        },
+        {
+        "tag": "antecedentes",
+        "patrones": ["ninguno","mi padre", "mi madre", "un hermano", "una hermana", "mi abuelo", "mi abuela", "un tio", "una tia"],
+        "respuestas": ["!La información que me has brindado ha sido de gran ayuda! \n Ahora dime, ¿Cuál es tu valor de colesterol total?"]
+        },
+        {"tag": "colesterol",
+         "patrones": ["Mi colesterol es: ", "Colesterol", "valor de colesterol", "resultados de colesterol" ],
+         "respuestas": ["Gracias por la información. ¿Y el valor de la glicemia en ayunas?"]
+        },
+        {"tag": "glicemia",
+         "patrones": ["El valor de glicemia es", "mi glicemia es", "glicemia"],
+         "respuestas": ["¡Muchas Gracias! Con esta información analizaremos tu nivel de riesgo de enfermedad cardiovascular."]
+        }
+   ]
+}
